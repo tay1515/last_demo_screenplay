@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-02-21T14:26:13" hostname="TAY" time="9.163">
+  <properties/>
+  <testcase name="Inicio de sesion." classname="Login" time="9.163"/>
+  <system-out><![CDATA[09:26:13.490 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter -- Running feature from file:///C:/Automatizacion/Proyectos_screenplay/last_demo_screenplay/src/test/resources/features/Login.feature
+09:26:13.646 [Test worker] INFO  -- 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Inicio de sesion.(login;inicio-de-sesion.)
+--------------------------------------------------------------------------------
+09:26:14.284 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - !#title
+09:26:14.303 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - {0} opens the browser at #url
+09:26:14.417 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider -- Starting Chrome driver instance with capabilities:
+09:26:14.419 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider -- Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [test-type, ignore-certificate-errors, --start-maximized, incognito, disable-infobars, disable-gpu, disable-default-apps, disable-popup-blocking, disable-extensions-file-acc..., test-type, ignore-certificate-errors, --start-maximized, incognito, ignore-certificate-errors, disable-infobars, disable-gpu, disable-default-apps, disable-popup-blocking, disable-extensions-file-acc..., disable-infobars, remote-allow-origins=*], extensions: []}}
+09:26:19.604 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Opening darkroom
+09:26:19.605 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Darkroom processing line starting up
+09:26:19.918 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Automatizacion\Proyectos_screenplay\last_demo_screenplay\target\site\serenity\52f5eafea5f01ef8ec4b6d4bf1f2f0be7f941e4d21d26915acc56513ca1aff91.png
+09:26:19.923 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: {0} opens the browser at #url
+09:26:19.942 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: !#title
+09:26:20.149 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Automatizacion\Proyectos_screenplay\last_demo_screenplay\target\site\serenity\52f5eafea5f01ef8ec4b6d4bf1f2f0be7f941e4d21d26915acc56513ca1aff91.png
+user Jsmithpass Demo1234
+09:26:20.177 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - performAs
+09:26:20.413 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Automatizacion\Proyectos_screenplay\last_demo_screenplay\target\site\serenity\52f5eafea5f01ef8ec4b6d4bf1f2f0be7f941e4d21d26915acc56513ca1aff91.png
+09:26:20.414 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - {0} clicks on #locators
+09:26:21.011 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Automatizacion\Proyectos_screenplay\last_demo_screenplay\target\site\serenity\3e8a3478c73935b6a5689b27e53952d94648eec0aa70946cfc8e5abeae6a06a6.png
+09:26:21.012 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: {0} clicks on #locators
+09:26:21.031 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - {0} enters #theTextAsAString into #locatorNames
+09:26:21.366 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Automatizacion\Proyectos_screenplay\last_demo_screenplay\target\site\serenity\556fae2125ba1b41ee751034e99d4430c4831905ce9c92f9f7c510b496fa5ae7.png
+09:26:21.366 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: {0} enters #theTextAsAString into #locatorNames
+09:26:21.366 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Processing screenshot image in /var/screenshots/screenshot-16550299182168414816
+09:26:21.371 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Saving screenshot to C:\Automatizacion\Proyectos_screenplay\last_demo_screenplay\target\site\serenity\556fae2125ba1b41ee751034e99d4430c4831905ce9c92f9f7c510b496fa5ae7.png
+09:26:21.396 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - {0} enters #theTextAsAString into #locatorNames
+09:26:21.746 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Automatizacion\Proyectos_screenplay\last_demo_screenplay\target\site\serenity\c1099c03d0a81e4f8bd64ae65ca4936145640104ea521a7c4cab1a3a5e0936a3.png
+09:26:21.746 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: {0} enters #theTextAsAString into #locatorNames
+09:26:21.746 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Processing screenshot image in /var/screenshots/screenshot-16950617829246419661
+09:26:21.746 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Saving screenshot to C:\Automatizacion\Proyectos_screenplay\last_demo_screenplay\target\site\serenity\c1099c03d0a81e4f8bd64ae65ca4936145640104ea521a7c4cab1a3a5e0936a3.png
+09:26:21.759 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - {0} clicks on #locators
+09:26:22.333 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for C:\Automatizacion\Proyectos_screenplay\last_demo_screenplay\target\site\serenity\311081d98ee3e2f674f9d255e0ccecce46a944a22f1bac2cc2afe1a4a769ce87.png
+09:26:22.333 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: {0} clicks on #locators
+09:26:22.333 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Processing screenshot image in /var/screenshots/screenshot-6451928472506171106
+09:26:22.333 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Saving screenshot to C:\Automatizacion\Proyectos_screenplay\last_demo_screenplay\target\site\serenity\311081d98ee3e2f674f9d255e0ccecce46a944a22f1bac2cc2afe1a4a769ce87.png
+09:26:22.349 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: performAs
+09:26:22.367 [Test worker] INFO  -- 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Inicio de sesion.
+----------------------------------------------------------------------
+]]></system-out>
+  <system-err><![CDATA[feb. 21, 2024 9:26:16 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTENCIA: Unable to find an exact match for CDP version 122, returning the closest version; found: 119; Please update to a Selenium version that supports CDP version 122
+]]></system-err>
+</testsuite>
